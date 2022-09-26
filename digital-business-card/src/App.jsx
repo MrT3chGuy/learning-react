@@ -5,12 +5,12 @@ import Interests from "./components/Interests";
 import Footer from "./components/Footer";
 
 export default function App() {
-    return (
-        <div className="main">
-            <Info />
-            <About />
-            <Interests />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="main">
+      <Info />
+      <About />
+      <Interests />
+      <Footer />
+    </div>
+  );
 }
