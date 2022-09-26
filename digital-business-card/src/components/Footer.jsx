@@ -3,10 +3,18 @@ import React from "react";
 export default function Footer() {
     return (
         <div className="footer">
-            <img className="profile_img" src="/src/assets/twitter.svg" alt="" />
-            <img className="profile_img" src="/src/assets/fb.svg" alt="" />
-            <img className="profile_img" src="/src/assets/insta.svg" alt="" />
-            <img className="profile_img" src="/src/assets/github.svg" alt="" />
+            <a href="">
+                <img className="profile_img" src="/src/assets/twitter.svg" alt="" />
+            </a>
+            <a href="">
+                <img className="profile_img" src="/src/assets/fb.svg" alt="" />
+            </a>
+            <a href="">
+                <img className="profile_img" src="/src/assets/insta.svg" alt="" />
+            </a>
+            <a href="https://github.com/MrT3chGuy">
+                <img className="profile_img" src="/src/assets/github.svg" alt="" />
+            </a>
         </div>
     );
 }

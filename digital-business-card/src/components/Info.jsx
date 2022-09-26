@@ -11,18 +11,17 @@ export default function Info() {
             <h5 className="title">Full Stack Developer</h5>
             <h6 className="website">omarhiweish.website</h6>
             <div className="buttons">
-                <div className="email">
+                <a className="email" href="mailto:omarhiweish@gmail.com">
                     <FontAwesomeIcon icon={faEnvelope} />
-                    <a href="mailto:omarhiweish@gmail.com" type="email">
-                        Email
-                    </a>
-                </div>
-                <div className="linkedin">
+                    Email
+                </a>
+                <a
+                    className="linkedin"
+                    target={"_blank"}
+                    href="https://www.linkedin.com/in/omar-hiweish/">
                     <FontAwesomeIcon icon={faLinkedin} />
-                    <a target={"_blank"} href="https://www.linkedin.com/in/omar-hiweish/">
-                        LinkedIn
-                    </a>
-                </div>
+                    LinkedIn
+                </a>
             </div>
         </div>
     );

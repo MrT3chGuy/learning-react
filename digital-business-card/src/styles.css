@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   margin: 0 auto;
   background-color: #1A1B21;
-  width: 40%;
+  width: 400px;
   border-radius: 10px;
 }
 
@@ -46,13 +46,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin-top: 1em;
 }
-.info .buttons a {
-  text-decoration: none;
-}
 .info .buttons .email, .info .buttons .linkedin {
-  padding: 10px 25px;
+  padding: 10px 43px;
   margin: 0 0.5em;
   border-radius: 6px;
+  text-decoration: none;
 }
 .info .buttons .email svg, .info .buttons .linkedin svg {
   margin-right: 7px;
@@ -60,13 +58,13 @@ h1, h2, h3, h4, h5, h6 {
 .info .buttons .email {
   background-color: #fff;
 }
-.info .buttons .email a, .info .buttons .email svg {
+.info .buttons .email, .info .buttons .email svg {
   color: #374151;
 }
 .info .buttons .linkedin {
   background-color: #5093E2;
 }
-.info .buttons .linkedin a, .info .buttons .linkedin svg {
+.info .buttons .linkedin, .info .buttons .linkedin svg {
   color: #fff;
 }
 
@@ -81,4 +79,18 @@ h1, h2, h3, h4, h5, h6 {
 .description {
   font-size: 12px;
   line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #161619;
+  width: 100%;
+  padding: 1.5em 3em;
+  border-radius: 0 0 10px 10px;
+  margin-top: 2em;
+}
+
+a:hover {
+  filter: brightness(85%);
 }/*# sourceMappingURL=styles.css.map */
