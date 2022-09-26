@@ -7,9 +7,9 @@ export default function Info() {
     return (
         <div className="info">
             <img className="profile_img" src="/src/assets/omar.jpg" alt="" />
-            <h1>Omar Hiweish</h1>
-            <h5>Full Stack Developer</h5>
-            <h6>omarhiweish.website</h6>
+            <h1 className="name">Omar Hiweish</h1>
+            <h5 className="title">Full Stack Developer</h5>
+            <h6 className="website">omarhiweish.website</h6>
             <div className="buttons">
                 <div className="email">
                     <FontAwesomeIcon icon={faEnvelope} />

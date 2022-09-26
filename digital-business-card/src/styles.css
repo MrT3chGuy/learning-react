@@ -1,45 +1,84 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #23252C;
-    color: #fff;
-    font-family: 'Inter';
+  background-color: #23252C;
+  color: #fff;
+  font-family: "Inter";
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+  margin: 0;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    background-color: #1A1B21;
-}
-
-.info .profile_img {
-    width: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #1A1B21;
+  width: 40%;
+  border-radius: 10px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.info .name {
+  margin-top: 1em;
+}
+.info .title, .info .website {
+  margin-top: 0.3em;
+  font-weight: 400;
+}
+.info .title {
+  margin-bottom: 0.7em;
+  color: #F3BF99;
+}
+.info .profile_img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
 .info .buttons {
-    display: flex;
+  display: flex;
+  margin-top: 1em;
 }
-
+.info .buttons a {
+  text-decoration: none;
+}
+.info .buttons .email, .info .buttons .linkedin {
+  padding: 10px 25px;
+  margin: 0 0.5em;
+  border-radius: 6px;
+}
+.info .buttons .email svg, .info .buttons .linkedin svg {
+  margin-right: 7px;
+}
 .info .buttons .email {
-    background-color: #fff;
-    padding: 5px 15px;
+  background-color: #fff;
+}
+.info .buttons .email a, .info .buttons .email svg {
+  color: #374151;
+}
+.info .buttons .linkedin {
+  background-color: #5093E2;
+}
+.info .buttons .linkedin a, .info .buttons .linkedin svg {
+  color: #fff;
 }
 
-.info .buttons .linkedin {
-    background-color: #5093E2;
-    padding: 5px 15px;
+.about, .interests {
+  padding: 0 2em;
 }
+
+.about {
+  margin-top: 2.5em;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 1.5;
+}/*# sourceMappingURL=styles.css.map */

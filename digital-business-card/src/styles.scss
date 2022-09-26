@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #1A1B21;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .name {
+        margin-top: 1em;
+    }
+
+    & .title, .website {
+        margin-top: 0.3em;
+        font-weight: 400;
+    }
+
+    & .title {
+        margin-bottom: 0.7em;
+        color: #F3BF99;
+    }
+
+    & .profile_img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    & .buttons {
+        display: flex;
+        margin-top: 1em;
+
+        & a {
+            text-decoration: none;
+        }
+
+        & .email, .linkedin {
+            padding: 10px 25px;
+            margin: 0 0.5em;
+            border-radius: 6px;
+
+            & svg {
+                margin-right: 7px;
+            }
+        }
+
+        & .email {
+            background-color: #fff;
+
+            & a, svg {
+                color: #374151;
+            }
+        }
+
+        & .linkedin {
+            background-color: #5093E2;
+
+            & a, svg {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.about, .interests {
+    padding: 0 2em;
+}
+
+.about {
+    margin-top: 2.5em;
+}
+
+.description {
+    font-size: 12px;
+    line-height: 1.5;
+}
