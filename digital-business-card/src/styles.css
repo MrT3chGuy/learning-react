@@ -2,10 +2,18 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   background-color: #23252C;
   color: #fff;
   font-family: "Inter";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
