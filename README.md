@@ -4,4 +4,4 @@ I'm currently taking an interactive React course on a platform called Scrimba: h
 
 I'm using this repo to document my learning progress. Each folder in this repo is a project that I'm creating as part of the course.
 
-Current progress: ▰▰▱▱▱▱▱▱▱▱ 22%
+Current progress: ▰▰▰▰▱▱▱▱▱▱ 37%
